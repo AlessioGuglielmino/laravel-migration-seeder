@@ -1,6 +1,7 @@
 @extends('home')
 
 @section('main-content')
+
   <section class="container mt-5">
 
     @forelse($trains as $train)

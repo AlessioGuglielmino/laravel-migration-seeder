@@ -9,7 +9,8 @@ class TrainsController extends Controller
 {
   public function treni()
   {
+$title = 'Treni?';
     $trains = Trains::all();
-    return view('train', compact('trains'));
+    return view('trains', compact('trains','title'));
   }
 }
